@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(128, 0, 255);
+    align-items: center;
+    justify-content: center;
+    row-gap: 3rem;
+}
+.heading{
+    display: flex;
+    margin-top: 10rem;
+    font-size: 3rem;
+    font-weight: 900;
+    text-decoration: underline;
+}
+p{
+    text-transform: capitalize;
+}
+.userinput{
+    position: relative;
+}
+.userinput input{
+    height: 3rem;
+    width: 50vw;
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: italic;
+    color: rgb(56, 183, 82);
+    background-color: black;
+    border: 4px solid white;
+}
+.userinput i{
+    position: absolute;
+    right: 2%;
+    top: 20%;
+    size: 8rem;
+}
+.addeditems{
+     display: flex;
+     flex-direction: column;
+     gap: 2rem;
+     width: 50vw;
+     border-radius: 2rem;
+}
+
+.addeditems div{
+    background-color: rgb(6, 6, 6);
+    border-radius: 2rem;
+    color: azure;
+}
